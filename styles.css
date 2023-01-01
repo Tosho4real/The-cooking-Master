@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 2.8rem;
+}
+
+.clear {
+  clear: both;
+}
+h2 {
+  font-size: 3.6rem;
+  padding: 5rem 0rem;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+button {
+  font-size: 1.8rem;
+}
+
+nav {
+  background: rgb(61, 81, 103);
+  color: white;
+  padding: 3rem;
+}
+nav h1 {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  margin: 0rem 2rem;
+}
+.hero-section {
+  background-image: url("/pexels-ray-piedra-1565982.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 50rem;
+  text-align: center;
+  color: white;
+  padding-top: 10rem;
+  text-shadow: 3px 3px 3px black;
+}
+
+.hero-section button {
+  background: rgb(53, 119, 190);
+  color: white;
+  margin-top: 4rem;
+  padding: 1rem 4rem;
+  border: none;
+  cursor: pointer;
+}
+
+.form-section {
+  text-align: center;
+}
+form input,
+form textarea,
+form label {
+  margin-top: 4rem;
+  font-size: 2.4rem;
+}
+form input,
+form textarea {
+  margin: 2rem auto;
+  display: block;
+  width: 50%;
+}
+
+form button {
+  margin-bottom: 10rem;
+  background: rgb(53, 119, 190);
+  color: white;
+  margin-top: 4rem;
+  padding: 1rem 4rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 50%;
+}
